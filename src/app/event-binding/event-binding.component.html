@@ -1,0 +1,11 @@
+<body>
+    <p> Input Event </p> <input type="text" (input)="onInput($event)"> <br>
+    <p> {{input}} </p>
+    <p> Mouseover Event </p> <div (mouseover)="onMouseOver()">Hover over me!</div> <br>
+    <p> Click Event </p> <button (click)="buttonOn()">Click</button><br>
+    <div *ngIf="message">{{ message }}</div>
+    <p> Keydown Event </p><input type="text" (keydown)="onKeyDown($event)"><br>
+    <p> {{keys}} </p>
+    <p> Custom Event </p> <button (myCustomEvent)="onCustomEvent()">Trigger Custom Event</button>
+
+</body>

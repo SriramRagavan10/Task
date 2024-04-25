@@ -1,0 +1,16 @@
+/* Styles for the h2 element */
+h2 {
+    text-align: center;
+    color: #e72424; /* Set text color to dark gray */
+    font-size: 24px; /* Set font size to 24 pixels */
+    margin-bottom: 10px; /* Add a bottom margin of 10 pixels */
+  }
+  
+  /* Styles for the p elements */
+  p {
+    text-align: center;
+    color: #5fc695; /* Set text color to light gray */
+    font-size: 16px; /* Set font size to 16 pixels */
+    margin-bottom: 20px; /* Add a bottom margin of 20 pixels */
+  }
+  

@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Task';
+  title = 'Data Binding Example';
+  imageUrl = 'https://via.placeholder.com/150';
+  imageAlt = 'Placeholder Image';
+  name = '';
+
+  onButtonClick(): void {
+    alert('Button clicked!');
+  }
 }
